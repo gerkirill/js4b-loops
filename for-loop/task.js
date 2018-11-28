@@ -1,6 +1,6 @@
 function listAll(min, max) {
   var result = "";
-  for (var i = +min; i <= +max; i++)
+  for (var i = min; i <= max; i++)
     result = result + i + " ";
   return result.trim();
 }

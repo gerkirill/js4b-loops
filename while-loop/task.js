@@ -1,6 +1,9 @@
 // use: while loop
 // don't use: *, / and %
 function getReminder(dividend, divider) {
+	while (1){
+		
+	}
   return 2;
 }
 

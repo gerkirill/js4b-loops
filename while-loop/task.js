@@ -22,10 +22,11 @@ function integerDivision(dividend, divider) {
 // use: while loop
 // don't use: *, / and %
 function getDepositDuration(initialDeposit, monthlyPercent, desiredDeposit) {
+  var currentDeposit=initialDeposit;
   var monthCounter = 0;
-  while (initialDeposit < desiredDeposit) {
+  while (currentDeposit < desiredDeposit) {
     monthCounter++;
-    initialDeposit = initialDeposit + (initialDeposit * monthlyPercent / 100);
+    currentDeposit = currentDeposit + (currentDeposit * monthlyPercent / 100);
   }
   return monthCounter;
 }

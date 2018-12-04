@@ -20,7 +20,7 @@ function integerDivision(dividend, divider) {
 
 // * bank deposit calculator
 function getDepositDuration(initialDeposit, monthlyPercent, desiredDeposit) {
-  var currentDeposit=initialDeposit;
+  var currentDeposit = initialDeposit;
   var monthCounter = 0;
   while (currentDeposit < desiredDeposit) {
     monthCounter++;

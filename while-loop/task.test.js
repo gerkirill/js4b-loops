@@ -4,14 +4,14 @@ describe('While loop', function() {
     return func + '(' + test[0].join(', ') + ') должен возвращать "' + test[1] + '"';
   }
 
-  describe('getReminder', () => {
+  describe('getRemainder', () => {
     var tests = [
       [ [5, 3], 2 ],
       [ [5, 2], 1 ],
       [ [9, 9], 0 ],
     ];
-    tests.forEach(test => it(desc('getReminder', test), () => {
-      assert.equal(getReminder.apply(null, test[0]), test[1]);
+    tests.forEach(test => it(desc('getRemainder', test), () => {
+      assert.equal(getRemainder.apply(null, test[0]), test[1]);
     }))
   });
 

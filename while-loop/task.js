@@ -1,6 +1,6 @@
 // use: while loop
 // don't use: *, / and %
-function getReminder(dividend, divider) {
+function getRemainder(dividend, divider) {
   return 2;
 }
 

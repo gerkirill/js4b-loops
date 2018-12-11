@@ -1,13 +1,21 @@
 // use: while loop
 // don't use: *, / and %
 function getReminder(dividend, divider) {
-  return 2;
+  while (dividend >= divider){
+    dividend = dividend - divider;
+  }
+  return dividend;
 }
 
 // use: while loop
 // don't use: *, / and %
 function integerDivision(dividend, divider) {
-  return 2;
+  var i = 0;
+  while (dividend >= divider) {
+    dividend = dividend - divider;
+    i++;
+  }
+  return i;
 }
 
 // * bank deposit calculator
